@@ -1,5 +1,5 @@
 # liri-node-app
-## Liri a Language "Siri" App
+## Liri - a Language "Siri" App
 User will be able to search for concerts, songs, and movies by typing commands in the command line
 ## Motivation
 
