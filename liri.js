@@ -1,11 +1,12 @@
 require("dotenv").config();
-var Spotify = require('node-spotify-api')
-var moment = require('moment')
+var Spotify = require("node-spotify-api")
+var moment = require("moment")
 var request = require("request");
 var fs = require("fs");
 var command = process.argv[2];
 var search = process.argv.slice(3).join(" ");
-
+var divider =
+    "\n------------------------------------------------------------\n\n";
 //switch case below to call commands
 //node liri.js concert-this <artist/band name here>
 switch (command) {
@@ -50,17 +51,17 @@ function bands(artist) {
 
             //for an artist and render the following information about each event to the terminal:
             var body = JSON.parse(body)[0];
-            console.log(body);
-            console.log("=================================================================================");
-            console.log("Search Results")
-            console.log("\nArtist Lineup: "+body.lineup);
-            console.log("Venue: "+body.venue.name); //Name of the venue
-            console.log("Country, City: "+body.venue.country + ", " + body.venue.city);//Venue location
             var date = body.datetime;
             var prettyDate = moment(date).format("MM/DD/YYYY");//Date of the Event (use moment to format this as "MM/DD/YYYY")
-            console.log("Event Date: "+prettyDate);
-            console.log("==================================================================================");
+            var data = [
+                "Artist Lineup: " + body.lineup,
+                "Venue: " + body.venue.name,
+                "Country, Cit: " + body.venue.country + ", " + body.venue.city,
+                "Event Date: " + prettyDate
+            ].join("\n\n");
+            console.log(data);
         }
+        textLog(data);
     });
 }
 
@@ -68,22 +69,21 @@ function bands(artist) {
 function spotify(song) {
     var keys = require("./keys");
     var spotify = new Spotify(keys.spotify);
-
-   
     spotify.search({ type: 'track', query: song }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         } else {
             var data = data.tracks.items[0];
             //console.log(data);
-            console.log("=================================================================================");
-            console.log("Search Results")
-            console.log("\nArtist: " + data.artists[0].name);//Artist(s)
-            console.log("Song Title: " + data.name);//The song's name
-            console.log("Song Preview: " + data.preview_url);//A preview link of the song from Spotify
-            console.log("Album: " + data.album.name);//The album that the song is from
-            console.log("==================================================================================");
+            var data = [
+                "Artists: " + data.artists[0].name,
+                "Song Title: " + data.name,
+                "Song Preview: " + data.preview_url,
+                "Album: " + data.album.name
+            ].join("\n\n");
+            console.log(data);
         }
+        textLog(data);
     })
 }
 
@@ -96,33 +96,38 @@ function OMDb(movieName) {
     request(queryUrl, function (error, response, body) {
         if (!error && response.statusCode === 200) {
             var body = JSON.parse(body);
-            //console.log(body);
-            console.log("=================================================================================");
-            console.log("Search Results")
-            console.log("\nMovie Title: " + body.Title);//Title of the movie.
-            console.log("Year Released: " + body.Year);//Year the movie came out.
-            console.log("IMDB Rating: " + body.imdbRating); //IMDB Rating of the movie.
-            console.log("Rotten Tomatoes Rating: " + body.Ratings[1].Value);//Rotten Tomatoes Rating of the movie.
-            console.log("Country: " + body.Country);//Country where the movie was produced.
-            console.log("Language: " + body.Language);//Language of the movie.
-            console.log("Plot: " + body.Plot);//Plot of the movie.
-            console.log("Actors: " + body.Actors);//Actors in the movie.
-            console.log("==================================================================================");
+            var data = [
+                "Movie Title: " + body.Title,
+                "Year Released: " + body.Year,
+                "IMDB Rating: " + body.imdbRating,
+                "Rotten Tomatoes Rating: " + body.Ratings[1].Value,
+                "Country: " + body.Country,
+                "Language: " + body.Language,
+                "Plot: " + body.Plot,
+                "Actors: " + body.Actors
+            ].join("\n\n");
+            console.log(data);
         }
+        textLog(data);
     })
 }
 
 //do-what-it-says callback function
-
 function doSays() {
     fs.readFile("random.txt", "utf8", function (error, data) {
-        if (error) {
-            return console.log(error);
-        }
-        //console.log(data);
-
+        if (error) throw err;
         var randomArr = data.split(",");
-        console.log(randomArr);
         spotify(randomArr[1]);
+    });
+}
+
+//Bonus append information that is log to text file
+function textLog(data) {
+    fs.appendFile("log.txt", data + divider, function (err) {
+        if (err) {
+            console.log(err);
+        } else {
+            (console.log("Info added to log!"));
+        }
     })
 }
