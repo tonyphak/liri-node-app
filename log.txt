@@ -1,178 +1,28 @@
-=================================================================================
-Search Results
-Artist: Harry Styles
-Song Title: Sign of the Times
-Song Preview: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=d483dfc262de41da8c56a6812b00c395
-Album: Harry Styles
-==================================================================================
-=================================================================================
-Search Results
-Artist Lineup: Maroon 5
-Venue: Mandalay Bay Events Center
-Country, City: United States, Las Vegas
-Event Date: 12/30/2018
-==================================================================================================================================================================
-Search Results
-Movie Title: First Man
-Year Released: 2018
-IMDB Rating: 8.4
-Rotten Tomatoes Rating: 88%
-Country: USA
-Language: English
-Plot: A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.
-Actors: Ryan Gosling, Claire Foy, Pablo Schreiber, Christopher Abbott
-===================================================================================================================================================================
-Search Results
-Movie Title: First Man
-Year Released: 2018
-IMDB Rating: 8.4
-Rotten Tomatoes Rating: 88%
-Country: USA
-Language: English
-Plot: A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.
-Actors: Ryan Gosling, Claire Foy, Pablo Schreiber, Christopher Abbott
-==================================================================================
-=================================================================================
-Search Results
-Artist Lineup: Taylor Swift,Charli XCX,Broods,The TS Museum
-Venue: Optus Stadium
-Country, City: Australia, Burswood
-Event Date: 10/19/2018
-==================================================================================================================================================================
-Search Results
-Movie Title: Spice World
-Year Released: 1997
-IMDB Rating: 3.4
-Rotten Tomatoes Rating: 35%
-Country: UK
-Language: English
-Plot: World famous pop group the Spice Girls zip around London in their luxurious double decker tour bus having various adventures and performing for their fans.
-Actors: Melanie Brown, Emma Bunton, Melanie C, Geri Horner
-===================================================================================================================================================================
-Search Results
-Artist: Ace of Base
-Song Title: The Sign
-Song Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=d483dfc262de41da8c56a6812b00c395
-Album: The Sign (US Album) [Remastered]
-==================================================================================
-=================================================================================
-Search Results
-Movie Title: Spice World
-Year Released: 1997
-IMDB Rating: 3.4
-Rotten Tomatoes Rating: 35%
-Country: UK
-Language: English
-Plot: World famous pop group the Spice Girls zip around London in their luxurious double decker tour bus having various adventures and performing for their fans.
-Actors: Melanie Brown, Emma Bunton, Melanie C, Geri Horner
-==================================================================================
-=================================================================================
-Search Results
-Artist Lineup: Cardi B
-Venue: The Queen Mary
-Country, City: United States, Long Beach
-Event Date: 11/03/2018
-=================================================================================
-=================================================================================
-Search Results
-Movie Title: Batman Begins
-Year Released: 2005
-IMDB Rating: 8.3
-Rotten Tomatoes Rating: 84%
-Country: USA, UK
-Language: English, Urdu, Mandarin
-Plot: After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.
-Actors: Christian Bale, Michael Caine, Liam Neeson, Katie Holmes
-==================================================================================
-=================================================================================
-Search Results
-Movie Title: Batman Begins
-Year Released: 2005
-IMDB Rating: 8.3
-Rotten Tomatoes Rating: 84%
-Country: USA, UK
-Language: English, Urdu, Mandarin
-Plot: After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.
-Actors: Christian Bale, Michael Caine, Liam Neeson, Katie Holmes
-==================================================================================Artist Lineup: Taylor Swift,Charli XCX,Broods,The TS Museum
+Artist Lineup: Shawn Mendes
 
-Venue: Optus Stadium
+Venue: 97.1 AMP RADIO's 6th Annual WE CAN SURVIVE
 
-Country, Cit: Australia, Burswood
+Country, Cit: United States, Los Angeles
 
-Event Date: 10/19/2018
+Event Date: 10/20/2018
 ------------------------------------------------------------
 
+Artists: Shawn Mendes
 
-Artist Lineup: Taylor Swift,Charli XCX,Broods,The TS Museum
-
-Venue: Optus Stadium
-
-Country, Cit: Australia, Burswood
-
-Event Date: 10/19/2018
-------------------------------------------------------------
-
-Artist Lineup: Taylor Swift,Charli XCX,Broods,The TS Museum
-
-Venue: Optus Stadium
-
-Country, Cit: Australia, Burswood
-
-Event Date: 10/19/2018
-------------------------------------------------------------
-
-Artists: Taylor Swift
-
-Song Title: Delicate
+Song Title: In My Blood
 
 Song Preview: null
 
-Album: reputation
+Album: Shawn Mendes
 ------------------------------------------------------------
 
-Artists: Harry Styles
+Artists: Ace of Base
 
-Song Title: Sign of the Times
+Song Title: The Sign
 
-Song Preview: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=d483dfc262de41da8c56a6812b00c395
+Song Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=d483dfc262de41da8c56a6812b00c395
 
-Album: Harry Styles
-------------------------------------------------------------
-
-Movie Title: The Last Samurai
-
-Year Released: 2003
-
-IMDB Rating: 7.7
-
-Rotten Tomatoes Rating: 66%
-
-Country: USA, New Zealand, Japan
-
-Language: English, Japanese
-
-Plot: An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle.
-
-Actors: Ken Watanabe, Tom Cruise, William Atherton, Chad Lindberg
-------------------------------------------------------------
-
-Artists: Backstreet Boys
-
-Song Title: I Want It That Way
-
-Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=d483dfc262de41da8c56a6812b00c395
-
-Album: The Hits--Chapter One
-------------------------------------------------------------
-
-Artists: Backstreet Boys
-
-Song Title: I Want It That Way
-
-Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=d483dfc262de41da8c56a6812b00c395
-
-Album: The Hits--Chapter One
+Album: The Sign (US Album) [Remastered]
 ------------------------------------------------------------
 
 Movie Title: Batman Begins
@@ -190,5 +40,40 @@ Language: English, Urdu, Mandarin
 Plot: After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.
 
 Actors: Christian Bale, Michael Caine, Liam Neeson, Katie Holmes
+------------------------------------------------------------
+
+Movie Title: The Dark Knight
+
+Year Released: 2008
+
+IMDB Rating: 9.0
+
+Rotten Tomatoes Rating: 94%
+
+Country: USA, UK
+
+Language: English, Mandarin
+
+Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+
+Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+------------------------------------------------------------
+
+Artists: Dwele
+
+Song Title: Find A Way
+
+Song Preview: null
+
+Album: Subject
+------------------------------------------------------------
+
+Artists: Backstreet Boys
+
+Song Title: I Want It That Way
+
+Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=d483dfc262de41da8c56a6812b00c395
+
+Album: The Hits--Chapter One
 ------------------------------------------------------------
 

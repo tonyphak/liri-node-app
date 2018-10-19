@@ -114,8 +114,8 @@ function OMDb(movieName) {
 
 //do-what-it-says callback function
 function doSays() {
-    fs.readFile("random.txt", "utf8", function (error, data) {
-        if (error) throw err;
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        if (err) throw err;
         var randomArr = data.split(",");
         spotify(randomArr[1]);
     });
@@ -124,10 +124,7 @@ function doSays() {
 //Bonus append information that is log to text file
 function textLog(data) {
     fs.appendFile("log.txt", data + divider, function (err) {
-        if (err) {
-            console.log(err);
-        } else {
-            (console.log("Info added to log!"));
-        }
+        if (err) throw err;
+        console.log("Info added to log!");
     })
 }
