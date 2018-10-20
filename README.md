@@ -31,10 +31,11 @@ Video of the Demo can be found here
 * NPM
 * JS
 ## Prerequisites
-* Spotify NPM
-* Moment NPM
-* Request NPM to access bandsintown API and OMDb API.
-* FS NPM
+* Spotify NPM - https://www.npmjs.com/package/node-spotify-api (to access spotify npm)
+* Moment NPM - https://www.npmjs.com/package/moment (to convert time and date)
+* Request NPM to access bandsintown API and OMDb API - https://www.npmjs.com/package/request (request to access API without NPM)
+* FS NPM - https://www.npmjs.com/package/file-system (to read files)
+* Dotenv NPM - https://www.npmjs.com/package/dotenv (to access API keys from a file external to the js file)
 ## Built With
 * Visual Studio Code: Editor
 * Bash Terminal
