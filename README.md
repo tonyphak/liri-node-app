@@ -21,11 +21,11 @@ Video of the Demo can be found here
 7. The correct answer screen will show that the answer was correct with the appropriate giphy
 ![Image correct answer screen](https://github.com/tonyphak/liri-node-app/blob/master/images/movie-this%20result.png)
 8. The wrong answer screen will show that the answer was wrong with the appropriate giphy. This same giphy will be played for every question answered wrong.
-![Image of wrong answer screen](https://github.com/tonyphak/liri-node-app/blob/master/images/log%20txt%20all%20results.png)
+![Image of wrong answer screen](https://github.com/tonyphak/liri-node-app/blob/master/images/random-txt.png)
 9. The out of time screen will show that the player is out of time with no giphy to be displayed.
-![Image of out of time screen](https://github.com/tonyphak/liri-node-app/blob/master/images/log%20txt%20all%20results.png)
+![Image of out of time screen](https://github.com/tonyphak/liri-node-app/blob/master/images/do-what-it-says%20result.png)
 10. The scoreboard screen will show the number of correct answered, wrong answered, and unanswered
-![Image of scoreboard screen]()
+![Image of scoreboard screen](https://github.com/tonyphak/liri-node-app/blob/master/images/log%20txt%20all%20results.png)
 ## Technologies Used
 * Google Fonts
 * Bootstrap
