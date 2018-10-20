@@ -7,7 +7,7 @@ User will be able to search for concerts, songs, and movies by typing commands i
 Video of the Demo can be found here 
 ## Screenshots
 1. The question screen displays time remaining, question number out of total questions, the questions, and there is a highlighting effect when hovered over the answers.
-![Image of question screen]()
+![Image of question screen](https://github.com/tonyphak/liri-node-app/blob/master/images/Correct%20folder%20with%20js%20app.png)
 2. The correct answer screen will show that the answer was correct with the appropriate giphy
 ![Image correct answer screen]()
 3. The wrong answer screen will show that the answer was wrong with the appropriate giphy. This same giphy will be played for every question answered wrong.
