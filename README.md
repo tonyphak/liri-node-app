@@ -4,7 +4,7 @@ User will be able to search for concerts, songs, and movies by typing commands i
 ## Motivation
 I wanted to create a Node.js that can search for songs, concerts, and movies using APIs from spotify, bands in town, and OMDb. Each API can be accessed when the correct command is used.
 ## Getting Started
-Video of the Demo can be found here https://drive.google.com/file/d/1rmIWs3ArtYzaD41XdEAGUPTrhxCwBvuM/view?usp=sharing
+Video of the Demo can be found here [Liri Demp](https://drive.google.com/file/d/1rmIWs3ArtYzaD41XdEAGUPTrhxCwBvuM/view?usp=sharing)
 ## Screenshots
 1. To begin using Liri the user will need to start in the correct directory with the correct JS file. The screen below, the correct directory is liri-node-app and the program file is liri.js.
 ![Image of question screen](https://github.com/tonyphak/liri-node-app/blob/master/images/Correct%20folder%20with%20js%20app.png)
